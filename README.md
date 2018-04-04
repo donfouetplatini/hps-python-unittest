@@ -1,6 +1,5 @@
 # hps-python-unittest
-[![Build Status](https://travis-ci.org/hiptest/hps-python-unittest.svg?branch=master)](https://travis-ci.org/hiptest/hps-python-unittest)
-
+[![Build Status](https://travis-ci.org/donfouetplatini/hps-python-unittest.svg?branch=master)](https://travis-ci.org/donfouetplatini/hps-python-unittest)
 Hiptest publisher samples with Python/UnitTest
 
 In this repository you'll find tests generated in Python/UnitTest format from [Hiptest](https://hiptest.net), using [Hiptest publisher](https://github.com/hiptest/hiptest-publisher).
