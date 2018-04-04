@@ -8,7 +8,7 @@ class TestServeCoffee(unittest.TestCase):
 
     def test_simple_use(self):
         # Well, sometimes, you just get a coffee.
-        # Tags: priority:0
+        # Tags: priority:high
         # Given the coffee machine is started
         self.actionwords.the_coffee_machine_is_started()
         # When I take a coffee
