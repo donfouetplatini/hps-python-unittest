@@ -6,7 +6,7 @@ class TestServeCoffee(unittest.TestCase):
     def setUp(self):
         self.actionwords = Actionwords(self)
 
-    def test_simple_use(self):
+    def test_simple_use_uidac82fb5a87254b9f81cc98f8c85e8bf9(self):
         # Well, sometimes, you just get a coffee.
         # Tags: priority:high
         # Given the coffee machine is started

@@ -6,7 +6,7 @@ class TestBadUsage(unittest.TestCase):
     def setUp(self):
         self.actionwords = Actionwords(self)
 
-    def test_full_grounds_does_not_block_coffee(self):
+    def test_full_grounds_does_not_block_coffee_uidc80a29385a404829ab54e7bedcf98de3(self):
         # You keep getting coffee even if the "Empty grounds" message is displayed. That said it's not a fantastic idea, you'll get ground everywhere when you'll decide to empty it.
         # Tags: priority:low
         # Given the coffee machine is started
