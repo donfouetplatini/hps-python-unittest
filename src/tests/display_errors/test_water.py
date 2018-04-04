@@ -10,14 +10,14 @@ class TestWater(unittest.TestCase):
         # And I handle everything except the water tank
         self.actionwords.i_handle_everything_except_the_water_tank()
 
-    def test_message_fill_water_tank_is_displayed_after_50_coffees_are_taken(self):
+    def test_message_fill_water_tank_is_displayed_after_50_coffees_are_taken_uid4c8c121abc0b4fd880a2ffd1588ed952(self):
         # Tags: priority:high
         # When I take "50" coffees
         self.actionwords.i_take_coffee_number_coffees(coffee_number = 50)
         # Then message "Fill tank" should be displayed
         self.actionwords.message_message_should_be_displayed(message = "Fill tank")
 
-    def test_it_is_possible_to_take_10_coffees_after_the_message_fill_water_tank_is_displayed(self):
+    def test_it_is_possible_to_take_10_coffees_after_the_message_fill_water_tank_is_displayed_uid103a80d0934a41a48594374354264a18(self):
         # Tags: priority:low
         # When I take "60" coffees
         self.actionwords.i_take_coffee_number_coffees(coffee_number = 60)
@@ -28,7 +28,7 @@ class TestWater(unittest.TestCase):
         # Then coffee should not be served
         self.actionwords.coffee_should_not_be_served()
 
-    def test_when_the_water_tank_is_filled_the_message_disappears(self):
+    def test_when_the_water_tank_is_filled_the_message_disappears_uid987c5852bc6e4eaf983b299efed95b35(self):
         # Tags: priority:high
         # When I take "55" coffees
         self.actionwords.i_take_coffee_number_coffees(coffee_number = 55)
