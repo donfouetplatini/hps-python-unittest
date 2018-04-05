@@ -20,9 +20,9 @@ Update tests
 
 To update the tests:
 
-    hiptest-publisher -c python-unittest.conf --only=tests
+    hiptest-publisher -c python-unittest.conf --only=tests --test-run-id=147515
 
-The tests are generated in [``src/tests``](https://github.com/hiptest/hps-python-unittest/tree/master/src/tests)
+The tests are generated in [``src/tests``](https://github.com/donfouetplatini/hps-python-unittest/tree/master/src/tests)
 
 Run tests
 ---------
